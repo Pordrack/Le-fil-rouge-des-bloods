@@ -58,6 +58,27 @@
 
 	-->
    </STYLE>
+
+    <style>
+        #orakleContent {
+            height: 500px;
+            width: 250px;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;}
+
+        #orakleContent #filRouge {
+            width: 10px;
+            background: #F00;
+            height: 500px;
+            transition-duration: 1s;
+            transition-property: transform, box-shadow;
+        }
+        #orakleContent {
+      background: #220100;
+    }
+    </style>
   </head>
   <body>
    <div style="clear: both"> 
@@ -166,6 +187,43 @@
         </titre3> 
         <br /><br /><br /><br /><br />
         <img src="https://cdn.discordapp.com/attachments/499645361766268949/571793523129712678/Projet_blooteuh.png" alt="Des videastes photoshoppé reliés entre eux par un fil rouge sur une peinture a l'huile de l'enfer" class="center"> 
+        <br /><br /><br /><br />
+        <titre4>
+        <h href="text-align:right;">Le fil nomade</h>
+        <i href="text-align:right;">de Oräkle</i>
+        </titre4> 
+        <br /><br /><br />
+    <div id="orakleContent">
+        <div id="filRouge">
+        </div>
+    </div>
+    <script>
+        var filRouge = document.getElementById('filRouge');
+        var orakleQualean = 0;
+
+        setInterval(transform, 1050);
+
+        function transform() {
+            if (orakleQualean === 0) {
+                orakleQualean = 1;
+                filRouge.style.transform = "translateX(-240px) rotate(-10deg)";
+                filRouge.style.boxShadow = "0 0 2em #F00";
+            } else if (orakleQualean === 1) {
+                orakleQualean = 2;
+                filRouge.style.transform = "translateX(240px) rotate(10deg)";
+                filRouge.style.boxShadow = "0 0 4em #F00";
+            } else if (orakleQualean === 2) {
+                orakleQualean = 3;
+                filRouge.style.transform = "translateX(-240px) rotate(10deg)";
+                filRouge.style.boxShadow = "0 0 2em #F00";
+            } else if (orakleQualean === 3) {
+                orakleQualean = 0;
+                filRouge.style.transform = "translateX(240px) rotate(-10deg)";
+                filRouge.style.boxShadow = "0 0 4em #F00";
+            }
+        }
+    </script>
+        <br /><br />
         <p align="center"><br /><br /><br />Le fil s'arrête ici, pour le moment<br />
 	    si vous voulez y ajouter votre création,<br />
             contenant un fil rouge, envoyez la à <br />

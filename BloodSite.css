@@ -59,16 +59,10 @@ p{
  font-size: 2vw;
  margin-bottom:5px;
  font-family: 'Bree Serif', serif;
- color:#ffffff;
- font-weight:normal;
-}
-
-p{
- font-size: 2vw;
- margin-bottom:5px;
- font-family: 'Bree Serif', serif;
  color:#363030;
  font-weight:normal;
+ text-justify: center;
+ text-align: center;
 }
 
 f{
@@ -87,7 +81,28 @@ g{
  display: inline;
  font-size: 3vw;
  font-family: 'Bree Serif', serif;
- right:19%;
+ right:19.5%;
+ color:#363030;
+ font-weight:normal;
+
+}
+h{
+ position:absolute;
+ display: inline;
+ font-size: 3vw;
+ font-family: 'Bree Serif', serif;
+ left:27%;
+ color:#363030;
+ font-weight:normal;
+
+}
+
+i{
+ position:absolute;
+ display: inline;
+ font-size: 3vw;
+ font-family: 'Bree Serif', serif;
+ right:32%;
  color:#363030;
  font-weight:normal;
 
