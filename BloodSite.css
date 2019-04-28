@@ -1,0 +1,102 @@
+b{
+ position:absolute;
+ font-size: 5vw;
+ font-family: 'Bree Serif', serif;
+ text-align:center;
+ display: inline;
+ left:22%;
+ top:16px;
+ color:#363030;
+ font-weight:normal;
+
+}
+
+c{
+ position:absolute;
+ display: inline;
+ font-size: 5vw;
+ font-family: 'Bree Serif', serif;
+ right:26%;
+ top:16px;
+ color:#363030;
+ font-weight:normal;
+
+}
+
+d{
+ position:absolute;
+ display: inline;
+ top:12vw;
+ font-size: 3vw;
+ font-family: 'Bree Serif', serif;
+ left:30.5%;
+ color:#363030;
+ font-weight:normal;
+
+}
+
+e{
+ position:absolute;
+ display: inline;
+ top:12vw;
+ font-size: 3vw;
+ font-family: 'Bree Serif', serif;
+ right:30%;
+ color:#363030;
+ font-weight:normal;
+
+}
+
+body{
+ background: #220100 url(https://i.imgur.com/jLnTFBw.png) no-repeat fixed center;
+}
+
+canvas{
+ margin-top: 13vw;
+}
+
+p{
+ font-size: 2vw;
+ margin-bottom:5px;
+ font-family: 'Bree Serif', serif;
+ color:#ffffff;
+ font-weight:normal;
+}
+
+p{
+ font-size: 2vw;
+ margin-bottom:5px;
+ font-family: 'Bree Serif', serif;
+ color:#363030;
+ font-weight:normal;
+}
+
+f{
+ position:absolute;
+ display: inline;
+ font-size: 3vw;
+ font-family: 'Bree Serif', serif;
+ left:21.5%;
+ color:#363030;
+ font-weight:normal;
+
+}
+
+g{
+ position:absolute;
+ display: inline;
+ font-size: 3vw;
+ font-family: 'Bree Serif', serif;
+ right:19%;
+ color:#363030;
+ font-weight:normal;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
