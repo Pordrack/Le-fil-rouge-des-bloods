@@ -107,6 +107,32 @@ i{
  font-weight:normal;
 
 }
+j{
+ position:absolute;
+ display: inline;
+ font-size: 3vw;
+ font-family: 'Bree Serif', serif;
+ left:27%;
+ color:#363030;
+ font-weight:normal;
+
+}
+
+k{
+ position:absolute;
+ display: inline;
+ font-size: 3vw;
+ font-family: 'Bree Serif', serif;
+ right:32%;
+ color:#363030;
+ font-weight:normal;
+
+}
+
+.maxwidth {
+  width: 100%;
+  height: auto;
+}
 
 .center {
   display: block;
